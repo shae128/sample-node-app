@@ -1,6 +1,6 @@
 var app = require('./app');
 var http = require('http');
-var port = process.env.PORT || 22;
+var port = process.env.PORT || 8000;
 
 app.set('port', port);
 
